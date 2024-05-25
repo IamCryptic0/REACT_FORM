@@ -1,0 +1,44 @@
+/* Container for the success message */
+.success-container {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Title of the success message */
+  .success-container h2 {
+    color: #4caf50;
+    text-align: center;
+  }
+  
+  /* Each detail row */
+  .success-container div {
+    margin-bottom: 15px;
+  }
+  
+  /* Label for each detail */
+  .success-container p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Label for the field name */
+  .success-container p strong {
+    color: #333;
+  }
+  
+  /* Add responsive styling */
+  @media (max-width: 600px) {
+    .success-container {
+      padding: 15px;
+    }
+  
+    .success-container p {
+      font-size: 14px;
+    }
+  }
+  
